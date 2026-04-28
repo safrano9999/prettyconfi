@@ -18,7 +18,7 @@ except ImportError:
 class CLIRunner(Runner):
     """Interactive CLI runner using questionary for pretty terminal prompts.
 
-    Requires: pip install prettyconfig[cli]
+    Requires: pip install prettyconfi[cli]
 
     Navigation:
     - Type '<' or 'back' at any text prompt to go back
@@ -31,7 +31,7 @@ class CLIRunner(Runner):
         if not _HAS_QUESTIONARY:
             raise ImportError(
                 "questionary is required for CLI mode. "
-                "Install it with: pip install prettyconfig[cli]"
+                "Install it with: pip install prettyconfi[cli]"
             )
 
     def ask_field(self, field: FieldDef, current_value: Any) -> Any:

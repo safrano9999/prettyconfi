@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "prettyconfi"
-version = "0.1.1"
+version = "0.1.2"
 description = "Schema-driven configuration wizard for CLI and web"
 readme = "README.md"
 license = "MIT"
@@ -31,7 +31,7 @@ all = ["questionary>=2.0"]
 Homepage = "https://github.com/safrano9999/prettyconfig"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/prettyconfig"]
+packages = ["src/prettyconfig", "src/prettyconfi"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

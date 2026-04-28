@@ -1,4 +1,4 @@
-# prettyconfig
+# prettyconfi
 
 Schema-driven configuration wizard for CLI and web.
 
@@ -7,26 +7,26 @@ Define your configuration flow once as TOML schemas, run it as interactive CLI p
 ## Install
 
 ```bash
-pip install prettyconfig          # core (web-only)
-pip install prettyconfig[cli]     # with interactive CLI prompts
+pip install prettyconfi          # core (web-only)
+pip install prettyconfi[cli]     # with interactive CLI prompts
 ```
 
 ## Quick Start
 
 ```python
-import prettyconfig
+import prettyconfi
 from pathlib import Path
 
 # Load and merge schemas
-schemas = prettyconfig.load_schemas([Path("base.toml"), Path("app.toml")])
-composed = prettyconfig.compose(schemas)
+schemas = prettyconfi.load_schemas([Path("base.toml"), Path("app.toml")])
+composed = prettyconfi.compose(schemas)
 
 # Interactive CLI
-runner = prettyconfig.CLIRunner(composed)
+runner = prettyconfi.CLIRunner(composed)
 answers = runner.run()
 
 # Save results
-prettyconfig.to_env(answers, Path("output.env"))
+prettyconfi.to_env(answers, Path("output.env"))
 ```
 
 ## Schema Format
