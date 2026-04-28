@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "prettyconfi"
-version = "0.1.2"
+version = "0.1.3"
 description = "Schema-driven configuration wizard for CLI and web"
 readme = "README.md"
 license = "MIT"
