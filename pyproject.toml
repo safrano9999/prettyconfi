@@ -28,7 +28,7 @@ cli = ["questionary>=2.0"]
 all = ["questionary>=2.0"]
 
 [project.urls]
-Homepage = "https://github.com/safrano9999/prettyconfig"
+Homepage = "https://github.com/safrano9999/prettyconfi"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/prettyconfig", "src/prettyconfi"]
