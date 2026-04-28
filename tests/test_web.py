@@ -2,9 +2,9 @@
 
 from pathlib import Path
 
-from prettyconfig.schema import load_schemas
-from prettyconfig.composer import compose
-from prettyconfig.web import WebRunner
+from prettyconfi.schema import load_schemas
+from prettyconfi.composer import compose
+from prettyconfi.web import WebRunner
 
 FIXTURES = Path(__file__).parent / "fixtures"
 

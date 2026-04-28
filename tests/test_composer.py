@@ -1,8 +1,8 @@
 """Tests for schema composition and merging."""
 
 from pathlib import Path
-from prettyconfig.schema import load_schemas
-from prettyconfig.composer import compose
+from prettyconfi.schema import load_schemas
+from prettyconfi.composer import compose
 
 FIXTURES = Path(__file__).parent / "fixtures"
 

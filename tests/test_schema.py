@@ -2,7 +2,7 @@
 
 from pathlib import Path
 import pytest
-from prettyconfig.schema import load_schema, load_schemas, WhenCondition, FieldDef
+from prettyconfi.schema import load_schema, load_schemas, WhenCondition, FieldDef
 
 FIXTURES = Path(__file__).parent / "fixtures"
 

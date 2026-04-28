@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 
-from prettyconfig.output import to_env, to_toml, to_json, to_dict, from_env, from_toml
+from prettyconfi.output import to_env, to_toml, to_json, to_dict, from_env, from_toml
 
 
 def test_to_dict():

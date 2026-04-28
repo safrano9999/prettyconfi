@@ -3,9 +3,9 @@
 from pathlib import Path
 from typing import Any
 
-from prettyconfig.schema import load_schemas, FieldDef, WhenCondition
-from prettyconfig.composer import compose, ComposedSchema
-from prettyconfig.runner import Runner
+from prettyconfi.schema import load_schemas, FieldDef, WhenCondition
+from prettyconfi.composer import compose, ComposedSchema
+from prettyconfi.runner import Runner
 
 FIXTURES = Path(__file__).parent / "fixtures"
 

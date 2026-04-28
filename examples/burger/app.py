@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Burger Builder Web UI — prettyconfig Flask demo."""
+"""Burger Builder Web UI — prettyconfi Flask demo."""
 
 import json
 from pathlib import Path
 
 from flask import Flask, render_template, request, jsonify
 
-from prettyconfig import load_schema, compose, WebRunner, to_env, from_env
+from prettyconfi import load_schema, compose, WebRunner, to_env, from_env
 
 app = Flask(__name__)
 

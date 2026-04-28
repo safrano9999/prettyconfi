@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Burger Builder CLI — prettyconfig demo."""
+"""Burger Builder CLI — prettyconfi demo."""
 
 from pathlib import Path
 
-from prettyconfig import load_schema, compose, CLIRunner, StopSave, to_env, from_env
+from prettyconfi import load_schema, compose, CLIRunner, StopSave, to_env, from_env
 
 
 def main():
